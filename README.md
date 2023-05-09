@@ -25,10 +25,10 @@ RFC 4271（A Border Gateway Protocol 4 (BGP-4)）的简体中文翻译。
 * 第九章（UPDATE 报文处理，UPDATE Message Handling）：⬛
 * 第十章（BGP 计时器，BGP Timer）：🟩
 * 附录 A（Appendix A）：🟩
-* 附录 B（Appendix B）：🟨
-* 附录 C（Appendix C）：🟨
-* 附录 D（Appendix D）：🟨
-* 附录 E（Appendix E）：🟨
+* 附录 B（Appendix B）：🟩
+* 附录 C（Appendix C）：🟩
+* 附录 D（Appendix D）：🟩
+* 附录 E（Appendix E）：🟩
 * 附录 F（Appendix F）：🟨
 * 安全观点（Security Considerations）：🟩
 * IANA 观点（Security Considerations）：🟩
