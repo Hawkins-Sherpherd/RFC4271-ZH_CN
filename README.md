@@ -20,15 +20,15 @@ RFC 4271（A Border Gateway Protocol 4 (BGP-4)）的简体中文翻译。
 * 第四章（报文格式，Message Format）：🟩
 * 第五章（路径属性，Path Attributes）：🟨
 * 第六章（BGP 错误处理机制，BGP Error Handling）：🟨
-* 第七章（BGP 版本协商，BGP Version Negotiation）：🟨
+* 第七章（BGP 版本协商，BGP Version Negotiation）：🟩
 * 第八章（BGP 有限状态机，BGP Finite State Machine (FSM)）：⬛
 * 第九章（UPDATE 报文处理，UPDATE Message Handling）：⬛
-* 第十章（BGP 计时器，BGP Timer）：🟨
+* 第十章（BGP 计时器，BGP Timer）：🟩
 * 附录 A（Appendix A）：🟨
-* 附录 B（Appendix B）：⬛
-* 附录 C（Appendix C）：⬛
-* 附录 D（Appendix D）：⬛
-* 附录 E（Appendix E）：⬛
+* 附录 B（Appendix B）：🟨
+* 附录 C（Appendix C）：🟨
+* 附录 D（Appendix D）：🟨
+* 附录 E（Appendix E）：🟨
 * 附录 F（Appendix F）：⬛
 * 安全观点（Security Considerations）：🟩
 * IANA 观点（Security Considerations）：🟩
