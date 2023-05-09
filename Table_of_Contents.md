@@ -76,7 +76,7 @@
     * [附录 F.3. 路径属性排序](AppendixF/F.3.md)
     * [附录 F.4. AS_SET 排序](AppendixF/F.4.md)
     * [附录 F.5. 控制版本协商](AppendixF/F.5.md)
-    * [附录 F.6. 复合 AS_PATH 聚合](AppendixF/F.6.md)
+    * [附录 F.6. 复杂 AS_PATH 聚合](AppendixF/F.6.md)
 * [安全观点](Security_Considerations.md)
 * [IANA 观点](IANA_Considerations.md)
 * [标准参考](Normative_References.md)
