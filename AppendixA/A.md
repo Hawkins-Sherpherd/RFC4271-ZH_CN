@@ -1,46 +1,35 @@
-Comparison with RFC 1771
+# 与 RFC 1771 的比较
 
-   There are numerous editorial changes in comparison to [RFC1771] (too
-   many to list here).
+与 [[RFC1771]](https://www.rfc-editor.org/rfc/rfc1771.html) 相比，本文档有相当多的变化（实在太多了，在这里甚至都不能完整列出）。
 
-   The following list the technical changes:
+下面列出了技术性的变更：
 
-      Changes to reflect the usage of features such as TCP MD5
-      [RFC2385], BGP Route Reflectors [RFC2796], BGP Confederations
-      [RFC3065], and BGP Route Refresh [RFC2918].
+* 对诸如 TCP MD5 [[RFC2385]](https://www.rfc-editor.org/rfc/rfc2385.html)、BGP 路由反射器[[RFC2796]](https://www.rfc-editor.org/rfc/rfc2796.html)、BGP 联邦[[RFC3065]](https://www.rfc-editor.org/rfc/rfc3065.html)和 BGP 路由刷新[[RFC2918]](https://www.rfc-editor.org/rfc/rfc2918.html)等功能的使用的反映所作出的更改。
 
-      Clarification of the use of the BGP Identifier in the AGGREGATOR
-      attribute.
+* 明确 BGP 标识在 AGGREGATOR 属性中的使用。
 
-      Procedures for imposing an upper bound on the number of prefixes
-      that a BGP speaker would accept from a peer.
+* BGP Speaker 添加从其对等体接收的前缀数量的上界值的程序流程。
 
-      The ability of a BGP speaker to include more than one instance of
-      its own AS in the AS_PATH attribute for the purpose of inter-AS
-      traffic engineering.
+* BGP Speaker 为进行跨自治系统的流量工程而允许在 AS_PATH 属性中包含多个自身 AS 号的能力。
 
-      Clarification of the various types of NEXT_HOPs.
+* 明确多种类型的 NEXT_HOP。
 
-      Clarification of the use of the ATOMIC_AGGREGATE attribute.
+* 明确 ATOMIC_AGGREGATE 属性的使用。
 
-      The relationship between the immediate next hop, and the next hop
-      as specified in the NEXT_HOP path attribute.
+* 直接的下一跳和路径属性中指定的下一跳之间的联系。
 
-      Clarification of the tie-breaking procedures.
+* 明确解除关联的程序流程。
 
-      Clarification of the frequency of route advertisements.
+* 明确路由广播频率的概念。
 
-      Optional Parameter Type 1 (Authentication Information) has been
-      deprecated.
+* 可选参数类型1（Authentication Information）被废除。
 
-      UPDATE Message Error subcode 7 (AS Routing Loop) has been
-      deprecated.
+* UPDATE 报文错误子代码7（AS Routing Loop）被废除。
 
-      OPEN Message Error subcode 5 (Authentication Failure) has been
-      deprecated.
+* OPEN 报文错误子代码5（Authentication Failure）被废除。
 
-      Use of the Marker field for authentication has been deprecated.
+* 标识字段的验证功能被废除。
 
-      Implementations MUST support TCP MD5 [RFC2385] for authentication.
+* 实现**必须**支持 TCP MD5 [[RFC2385]](https://www.rfc-editor.org/rfc/rfc2385.html)用于验证。
 
-      Clarification of BGP FSM.
+* 对 BGP 有限状态机概念的明确。
