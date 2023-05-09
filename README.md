@@ -29,7 +29,7 @@ RFC 4271（A Border Gateway Protocol 4 (BGP-4)）的简体中文翻译。
 * 附录 C（Appendix C）：🟩
 * 附录 D（Appendix D）：🟩
 * 附录 E（Appendix E）：🟩
-* 附录 F（Appendix F）：🟨
+* 附录 F（Appendix F）：🟩
 * 安全观点（Security Considerations）：🟩
 * IANA 观点（Security Considerations）：🟩
 * 标准参考（Normative References）：🟩
